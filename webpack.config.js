@@ -18,6 +18,11 @@ module.exports = {
     //a construir
     filename: 'bundle.js',
   },
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+},
   //configuracion para saber con que archivos vamos a trabajar
   resolve: {
     //extenciones con las cuales estamos trabajando
